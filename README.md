@@ -49,6 +49,8 @@ Also I failed to notice the color of the h1 and the p tags, which really bring t
 
 I really want to get better at spacing, font size and font weight. These decisions can really bring a design to the next level, and I can tell if I master these things that my projects will be much better because of it.
 
+Another small detail - if you raise the bottom of the window up, the copyright hovers over the qr code elements. I am not sure how to get the copyright to either be at the bottom of the window, or be below the qr code, depending on the device a user is viewing this on. Any suggestions?
+
 
 ### Useful resources
 
