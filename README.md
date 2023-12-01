@@ -29,7 +29,7 @@ After this I went to the CSS to get the background color of the body, then I got
 
 Finally I made sure the text had the correct colors, and also that the attribution stayed at the bottom of the page.
 
-Since this project has everything fit inside of 375px for the phone width, there were no media queries needed.
+Since this project has everything fit inside of 375px for the phone width, there were no media queries for width needed, however because of the copyright placement, a media query for height was added so that the copyright was always at the bottom of the screen or at least 30px away from the element.
 
 ### Built with
 
@@ -44,12 +44,12 @@ While the padding I had initially done was pretty good, when I checked the Figma
 
 Also I failed to notice the color of the h1 and the p tags, which really bring this QR example to another level.
 
+Another small detail - when I raised the bottom of the window up, the copyright was hovering over the qr code elements. I was not sure how to get the copyright to either be at the bottom of the window, or be below the qr code, depending on the device a user is viewing this on, until I realized you can do media queries for height as well as width.
+
 
 ### Continued development
 
 I really want to get better at spacing, font size and font weight. These decisions can really bring a design to the next level, and I can tell if I master these things that my projects will be much better because of it.
-
-Another small detail - if you raise the bottom of the window up, the copyright hovers over the qr code elements. I am not sure how to get the copyright to either be at the bottom of the window, or be below the qr code, depending on the device a user is viewing this on. Any suggestions?
 
 
 ### Useful resources

@@ -15,7 +15,7 @@ body {
 }
 .main__container {
     width: 320px;
-    margin: 90px auto;
+    margin: 90px auto 30px;
     padding: 16px;
     background: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -46,8 +46,8 @@ body {
     margin: 28px auto 16px;
 }
 .attribution {
-    position: absolute;
-    bottom: 10px;
+    position: static;
+    margin-top: 30px;
 }
 .attribution p {
     font-size: 11px; 
@@ -56,4 +56,11 @@ body {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-height: 660px) {
+    .attribution {
+        position: absolute;
+        bottom: 10px;
+    }
 }
