@@ -1,0 +1,35 @@
+body {
+    background: hsl(212, 45%, 89%);
+}
+.main__container {
+    width: 230px;
+    margin: 90px auto;
+    padding: 12px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px hsl(220, 15%, 55%);
+}
+.main__container img {
+    width: 230px;
+    height: 230px;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+}
+.main__container p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px 4px 0;
+}
+.main__container h3 {
+    text-align: center;
+    font-weight: 700;
+    padding: 10 4px 0;
+}
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    transform: translateX(50%);
+}
