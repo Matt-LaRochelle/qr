@@ -37,6 +37,7 @@ Since this project has everything fit inside of 375px for the phone width, there
 - CSS custom properties
 - Google Fonts
 - Check work with the Figma file
+- Total time: 2 hours
 
 ### What I learned
 
